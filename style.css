@@ -16,6 +16,11 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding-bottom: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the presale column appears on top */
 }
 
 .container {
@@ -30,6 +35,7 @@ body {
     background-color: #000000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure the container serves as a reference for absolute positioning */
 }
 
 input[type="text"] {
