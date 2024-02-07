@@ -4,6 +4,7 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    position: relative; /* Ensure relative positioning for the body */
 }
 
 .presale {
@@ -16,10 +17,10 @@ body {
     margin: 0 auto;
     padding-bottom: 20%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50%; /* Place the presale column at 50% from the top */
+    left: 50%; /* Place the presale column at 50% from the left */
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 1; /* Ensure the presale column appears on top */
 }
 
 .container {
