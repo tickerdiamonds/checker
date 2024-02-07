@@ -8,9 +8,9 @@ function checkWallet() {
         var walletList = data.wallets;
         var resultDiv = document.getElementById("result");
         if (walletList.includes(walletAddress)) {
-            resultDiv.innerHTML = "Your wallet is in the list.";
+            resultDiv.innerHTML = "You are eligible for 100 000 $DIAMONDS";
         } else {
-            resultDiv.innerHTML = "Your wallet is not in the list.";
+            resultDiv.innerHTML = "You are not eligible :(";
         }
     })
     .catch(error => console.error('Error fetching wallets.json:', error));
