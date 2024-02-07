@@ -12,7 +12,13 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
+    font-style: bold;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
 .container {
     display: flex;
     flex-direction: column;
