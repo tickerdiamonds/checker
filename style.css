@@ -13,10 +13,10 @@ body {
     justify-content: center;
     color: white;
     font-style: bold;
-    height: 100vh;
+    height: 50vh;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding-bottom: 200px;
 }
 
 .container {
