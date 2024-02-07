@@ -14,12 +14,22 @@ body {
     justify-content: center;
     color: white;
     font-weight: bold; /* Corrected font-style to font-weight */
-    background-color: #4b0082; /* Dark purple background color */
+    background-color: #6c5ce7; /* Cool purple background color */
     padding: 20px; /* Adjust padding as needed */
     position: absolute;
     top: 0; /* Position the presale div at the top of the page */
     width: 100%; /* Make the presale div full width */
     z-index: 1; /* Ensure the presale div appears on top */
+}
+
+.presale a {
+    color: #ffa502; /* Stylish orange link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.presale a:hover {
+    color: #f39c12; /* Darker orange color on hover */
 }
 
 .container {
