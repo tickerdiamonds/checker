@@ -13,14 +13,13 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    font-style: bold;
-    margin: 0 auto;
-    padding-bottom: 20px; /* Adjust padding-bottom as needed */
+    font-weight: bold; /* Corrected font-style to font-weight */
+    background-color: #4b0082; /* Dark purple background color */
+    padding: 20px; /* Adjust padding as needed */
     position: absolute;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1; /* Ensure the presale column appears on top */
+    top: 0; /* Position the presale div at the top of the page */
+    width: 100%; /* Make the presale div full width */
+    z-index: 1; /* Ensure the presale div appears on top */
 }
 
 .container {
