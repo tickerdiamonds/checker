@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative; /* Ensure relative positioning for the body */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .presale {
