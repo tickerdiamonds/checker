@@ -15,11 +15,11 @@ body {
     color: white;
     font-style: bold;
     margin: 0 auto;
-    padding-bottom: 20%;
+    padding-bottom: 20px; /* Adjust padding-bottom as needed */
     position: absolute;
-    top: 50%; /* Place the presale column at 50% from the top */
-    left: 50%; /* Place the presale column at 50% from the left */
-    transform: translate(-50%, -50%);
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1; /* Ensure the presale column appears on top */
 }
 
@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 60px); /* Adjust the height of the container to accommodate the presale div */
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
